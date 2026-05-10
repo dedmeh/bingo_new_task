@@ -16,7 +16,8 @@
         "items": [
           {
             "items": [
-              "minecraft:dirt"
+              "minecraft:dirt",
+              "minecraft:coarse_dirt"
             ]
           }
         ]
