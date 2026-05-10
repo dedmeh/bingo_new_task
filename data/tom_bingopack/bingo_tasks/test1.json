@@ -1,0 +1,271 @@
+{
+    "tasks": [
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:golden_hoe",
+                "count": 10
+            }
+        },
+        
+
+        {
+            "type": "bongo.stat",
+            "weight":20,
+            "value": {
+                "category": "broken",
+                "stat": "minecraft:golden_hoe",
+                "value": 1
+            }
+        },
+
+
+        {
+            "type": "bongo.group",
+            "weight":20,
+            
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "weight": 9,
+                    "value": {
+                        "item": "minecraft:fern"
+                    }
+                },
+                {
+                    "type": "bongo.item",
+                    "weight": 1,
+                    "value": {
+                        "item": "minecraft:large_fern"
+                    }
+                }
+            ]
+            
+        },
+
+
+        {
+            "type": "bongo.group",
+            "weight":20,
+            "tasks": [
+                {
+                    "type": "bongo.advancement",
+                    "weight": 6,
+                    "value": "minecraft:adventure/spyglass_at_parrot"
+                },
+                {
+                    "type": "bongo.advancement",
+                    "weight": 4,
+                    "value": "minecraft:adventure/spyglass_at_ghast"
+                }
+            ]
+        },    
+
+
+        {
+            "type": "bongo.stat",
+            "weight":20,
+            "value": {
+                "category": "used",
+                "stat": "minecraft:golden_carrot",
+                "value": 1
+            }
+        },
+
+
+        {
+            "type": "bongo.stat",
+            "weight":20,
+            "value": {
+                "category": "used",
+                "stat": "minecraft:ender_eye",
+                "value": 1
+            }
+        },
+
+
+        {
+            "type": "bongo.stat",
+            "weight":20,
+            "value": {
+                "category": "killed_by",
+                "stat": "minecraft:cave_spider",
+                "value": 1
+            }
+        },
+
+
+        {
+            "type": "bongo.stat",
+            "weight":20,
+            "value": {
+                "category": "killed_by",
+                "stat": "minecraft:creeper",
+                "value": 1
+            }
+        
+        },
+
+
+        {
+            "type": "bongo.stat",
+            "weight":20,
+            "value": {
+                "category": "killed_by",
+                "stat": "minecraft:zombified_piglin",
+                "value": 1
+            }
+        },
+
+
+        {
+            "type": "bongo.stat",
+            "weight":20,
+            "value": {
+                "category": "killed_by",
+                "stat": "minecraft:enderman",
+                "value": 1
+            }
+        },
+
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:repeater"
+            }
+        },
+
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:amethyst_shard"
+            }
+        },
+
+        {
+            "type": "bongo.effect",
+            "weight":20,
+            "value": "minecraft:jump_boost"
+        },
+
+
+
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_planks"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_slab"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_stairs"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_fence"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_fence_gate"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_door"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_trapdoor"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_button"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_pressure_plate"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:oak_sign"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:crafting_table"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:chest"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:ladder"
+            }
+        },
+
+        {
+            "type": "bongo.item",
+            "weight":20,
+            "value": {
+                "item": "minecraft:torch"
+            }
+        }
+    ]
+}
