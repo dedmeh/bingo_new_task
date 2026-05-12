@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/shear_sheep_cyan",
+    "display": {
+        "icon": {
+            "item": "minecraft:purple_wool"
+        },
+        "title": "Haircut(10)",
+        "description": "Shear a purple sheep.",
+        "frame": "task"
+    },
+    "criteria": {
+      "shear_sheep_purple": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:sheep",
+            "nbt": "{Color:10b, Age:0}"
+          },
+          "item": {
+           "items": [
+             "minecraft:shears"
+           ]
+          }
+        }
+      }
+    },
+    "requirements": [["shear_sheep_purple"]]
+}

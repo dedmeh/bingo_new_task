@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/shear_sheep_light_blue",
+    "display": {
+        "icon": {
+            "item": "minecraft:yellow_wool"
+        },
+        "title": "Haircut(4)",
+        "description": "Shear a yellow sheep.",
+        "frame": "task"
+    },
+    "criteria": {
+      "shear_sheep_yellow": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:sheep",
+            "nbt": "{Color:4b, Age:0}"
+          },
+          "item": {
+           "items": [
+             "minecraft:shears"
+           ]
+          }
+        }
+      }
+    },
+    "requirements": [["shear_sheep_yellow"]]
+}

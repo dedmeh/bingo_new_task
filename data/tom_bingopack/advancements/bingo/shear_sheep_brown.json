@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/shear_sheep_blue",
+    "display": {
+        "icon": {
+            "item": "minecraft:brown_wool"
+        },
+        "title": "Haircut(12)",
+        "description": "Shear a brown sheep.",
+        "frame": "task"
+    },
+    "criteria": {
+      "shear_sheep_brown": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:sheep",
+            "nbt": "{Color:12b, Age:0}"
+          },
+          "item": {
+           "items": [
+             "minecraft:shears"
+           ]
+          }
+        }
+      }
+    },
+    "requirements": [["shear_sheep_brown"]]
+}

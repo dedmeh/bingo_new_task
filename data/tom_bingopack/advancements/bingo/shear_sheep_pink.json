@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/shear_sheep_lime",
+    "display": {
+        "icon": {
+            "item": "minecraft:pink_wool"
+        },
+        "title": "Haircut(6)",
+        "description": "Shear a pink sheep.",
+        "frame": "task"
+    },
+    "criteria": {
+      "shear_sheep_pink": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:sheep",
+            "nbt": "{Color:6b, Age:0}"
+          },
+          "item": {
+           "items": [
+             "minecraft:shears"
+           ]
+          }
+        }
+      }
+    },
+    "requirements": [["shear_sheep_pink"]]
+}
