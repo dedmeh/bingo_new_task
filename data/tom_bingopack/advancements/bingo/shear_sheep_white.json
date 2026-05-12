@@ -1,0 +1,32 @@
+{
+    "parent": "tom_bingopack:bingo/board",
+    "display": {
+        "icon": {
+            "item": "minecraft:white_wool"
+        },
+        "title": "Haircut(0)",
+        "description": "Shear a white sheep.",
+        "frame": "task"
+    },
+    "criteria": {
+      "shear_sheep_white": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:sheep",
+            "nbt": "{Color:0b, Age:0}"
+          },
+          "item": {
+           "items": [
+             "minecraft:shears"
+           ]
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "shear_sheep_white"
+      ]
+    ]
+}

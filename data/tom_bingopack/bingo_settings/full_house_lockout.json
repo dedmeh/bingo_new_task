@@ -9,7 +9,7 @@
     "lock_task_on_death": false,
     "teleports_per_team": -1,
     "leaderboard": true,
-    "lockout": false
+    "lockout": true
   },
   "level": {
     "keep": [],
