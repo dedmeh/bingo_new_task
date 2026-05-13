@@ -1,10 +1,10 @@
 {
-    "parent": "tom_bingopack:bingo/board",
+    "parent": "tom_bingopack:bingo/craft_iron_block",
     "display": {
         "icon": {
             "item": "minecraft:gold_block"
         },
-        "title": "Gold Digger",
+        "title": "We're RICH!",
         "description": "Craft a gold block.",
         "frame": "task"
     },
@@ -15,5 +15,10 @@
                 "recipe_id": "minecraft:gold_block"
             }
         }
-    }
+    },
+    "requirements": [
+        [
+            "craft_gold_block"
+        ]
+    ]
 }
