@@ -2,23 +2,23 @@
     "parent": "tom_bingopack:bingo/craft_iron_block",
     "display": {
         "icon": {
-            "item": "minecraft:bricks"
+            "item": "minecraft:lodestone"
         },
-        "title": "Bricked up",
-        "description": "Craft bricks.",
-        "frame": "task"
+        "title": "Dragon's Dream",
+        "description": "OH GOD THIS VERSION NEED NETHERITE",
+        "frame": "goal"
     },
     "criteria": {
-        "craft_bricks": {
+        "craft_lodestone": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft:bricks"
+                "recipe_id": "minecraft:lodestone"
             }
         }
     },
     "requirements": [
         [
-            "craft_bricks"
+            "craft_lodestone"
         ]
     ]
 }
