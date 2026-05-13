@@ -14,7 +14,7 @@
   "level": {
     "keep": [],
     "teleporter": "bongo.default",
-    "teleport_radius": 200
+    "teleport_radius": 10
   },
   "equipment": {
     "inventory": [],

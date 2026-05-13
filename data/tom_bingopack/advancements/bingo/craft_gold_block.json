@@ -1,0 +1,19 @@
+{
+    "parent": "tom_bingopack:bingo/board",
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": "Gold Digger",
+        "description": "Craft a gold block.",
+        "frame": "task"
+    },
+    "criteria": {
+        "craft_gold_block": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:gold_block"
+            }
+        }
+    }
+}

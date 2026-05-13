@@ -14,7 +14,7 @@
         "conditions": {
           "entity": {
             "type": "minecraft:sheep",
-            "nbt": "{Color:0b, Age:0}"
+            "nbt": "{Color:0b, Age:0,}"
           },
           "item": {
            "items": [
