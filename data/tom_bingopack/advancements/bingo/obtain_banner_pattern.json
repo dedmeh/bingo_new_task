@@ -4,7 +4,7 @@
         "icon": {
             "item": "minecraft:flower_banner_pattern"
         },
-        "title": "Banner Collector",
+        "title": "Markipbanner",
         "description": "Obtain any banner pattern.",
         "frame": "task"
     },

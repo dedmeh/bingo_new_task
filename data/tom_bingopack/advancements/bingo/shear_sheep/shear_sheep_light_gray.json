@@ -1,20 +1,20 @@
 {
-    "parent": "tom_bingopack:bingo/shear_sheep_yellow",
+    "parent": "tom_bingopack:bingo/shear_sheep/shear_sheep_gray",
     "display": {
         "icon": {
-            "item": "minecraft:lime_wool"
+            "item": "minecraft:light_gray_wool"
         },
-        "title": "Low Taper Fade(5)",
-        "description": "Shear a lime sheep.",
+        "title": "Low Taper Fade(8)",
+        "description": "Shear a light gray sheep.",
         "frame": "task"
     },
     "criteria": {
-      "shear_sheep_lime": {
+      "shear_sheep_light_gray": {
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
             "type": "minecraft:sheep",
-            "nbt": "{Color:5b, Age:0}"
+            "nbt": "{Color:8b, Age:0}"
           },
           "item": {
            "items": [
@@ -24,5 +24,5 @@
         }
       }
     },
-    "requirements": [["shear_sheep_lime"]]
+    "requirements": [["shear_sheep_light_gray"]]
 }

@@ -1,5 +1,5 @@
 {
-    "parent": "tom_bingopack:bingo/shear_sheep_lime",
+    "parent": "tom_bingopack:bingo/shear_sheep/shear_sheep_lime",
     "display": {
         "icon": {
             "item": "minecraft:pink_wool"
