@@ -1,0 +1,29 @@
+{
+    "parent": "tom_bingopack:bingo/obtain_gold_hoe",
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": "Used good",
+        "description": "Break a golden hoe.",
+        "frame": "task"
+    },
+    "criteria": {
+        "break_gold_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:golden_hoe"]
+                    }
+                ],
+                "durability": 0
+            }
+        }
+    },
+    "requirements": [
+        [
+            "break_gold_hoe"
+        ]
+    ]
+}

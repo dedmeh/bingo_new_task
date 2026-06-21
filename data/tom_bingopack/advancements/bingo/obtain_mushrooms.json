@@ -1,0 +1,41 @@
+{
+    "parent": "tom_bingopack:bingo/board",
+    "display": {
+        "icon": {
+            "item": "minecraft:red_mushroom"
+        },
+        "title": "Amoongus",
+        "description": "Obtain every type of mushroom",
+        "frame": "task"
+    },
+    "criteria": {
+        "obtain_red_mushroom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:red_mushroom"]
+                    }
+                ]
+            }
+        },
+        "obtain_brown_mushroom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:brown_mushroom"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_red_mushroom"
+        ],
+        [
+            "obtain_brown_mushroom"
+        ]
+    ]
+}

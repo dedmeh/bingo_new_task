@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/board",
+    "display": {
+        "icon": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "title": "Amuhthuh",
+        "description": "Obtain an amethyst shard.",
+        "frame": "task"
+    },
+    "criteria": {
+        "obtain_amethyst_shard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:amethyst_shard"]
+                    }
+                ]
+            }
+         }
+    },
+    "requirements": [
+        [
+            "obtain_amethyst_shard"
+        ]
+    ]
+}

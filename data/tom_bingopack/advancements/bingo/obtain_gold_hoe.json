@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/board",
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": "Gold Digger",
+        "description": "Obtain a golden hoe.",
+        "frame": "task"
+    },
+    "criteria": {
+        "obtain_gold_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:golden_hoe"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_gold_hoe"
+        ]
+    ]
+}
