@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/craft_iron_block",
     "display": {
         "icon": {
-            "item": "minecraft:bricks"
+            "id": "minecraft:bricks"
         },
         "title": "Bricked up",
         "description": "Craft bricks.",

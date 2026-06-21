@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/craft_gold_block",
     "display": {
         "icon": {
-            "item": "minecraft:diamond_block"
+            "id": "minecraft:diamond_block"
         },
         "title": "We're SUPER RICH!",
         "description": "Craft a diamond block.",

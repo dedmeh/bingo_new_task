@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/board",
     "display": {
         "icon": {
-            "item": "minecraft:repeater"
+            "id": "minecraft:repeater"
         },
         "title": "The Repeater",
         "description": "Obtain a repeater.",

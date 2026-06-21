@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/board",
     "display": {
         "icon": {
-            "item": "minecraft:flower_banner_pattern"
+            "id": "minecraft:flower_banner_pattern"
         },
         "title": "Markipbanner",
         "description": "Obtain any banner pattern.",

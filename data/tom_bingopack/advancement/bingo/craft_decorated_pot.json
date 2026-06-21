@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/craft_bricks",
     "display": {
         "icon": {
-            "item": "minecraft:decorated_pot"
+            "id": "minecraft:decorated_pot"
         },
         "title": "Pottery",
         "description": "Craft a decorated pot.",

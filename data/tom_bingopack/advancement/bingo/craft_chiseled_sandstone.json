@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/board",
     "display": {
         "icon": {
-            "item": "minecraft:chiseled_sandstone"
+            "id": "minecraft:chiseled_sandstone"
         },
         "title": "Egyptian Sculptor",
         "description": "Craft any chiseled sandstone.",

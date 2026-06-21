@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:filled_map"
+      "id": "minecraft:filled_map"
     },
     "title": "AWESOME BINGO",
     "description": "Nick grhhhh",

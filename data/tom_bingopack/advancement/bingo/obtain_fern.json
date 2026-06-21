@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/board",
     "display": {
         "icon": {
-            "item": "minecraft:fern"
+            "id": "minecraft:fern"
         },
         "title": "Not yet, Ferb",
         "description": "Obtain a fern.",

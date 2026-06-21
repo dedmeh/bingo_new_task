@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/board",
     "display": {
         "icon": {
-            "item": "minecraft:golden_hoe"
+            "id": "minecraft:golden_hoe"
         },
         "title": "Gold Digger",
         "description": "Obtain a golden hoe.",

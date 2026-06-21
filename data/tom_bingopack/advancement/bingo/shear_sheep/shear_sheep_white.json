@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/board",
     "display": {
         "icon": {
-            "item": "minecraft:white_wool"
+            "id": "minecraft:white_wool"
         },
         "title": "Low Taper Fade(0)",
         "description": "Shear a white sheep.",
@@ -16,7 +16,7 @@
             "type": "minecraft:sheep",
             "nbt": "{Color:0b, Age:0,}"
           },
-          "item": {
+          "items": {
            "items": [
              "minecraft:shears"
            ]

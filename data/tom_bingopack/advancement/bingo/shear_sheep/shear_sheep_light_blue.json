@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/shear_sheep/shear_sheep_magenta",
     "display": {
         "icon": {
-            "item": "minecraft:light_blue_wool"
+            "id": "minecraft:light_blue_wool"
         },
         "title": "Low Taper Fade(3)",
         "description": "Shear a light blue sheep.",
@@ -16,7 +16,7 @@
             "type": "minecraft:sheep",
             "nbt": "{Color:3b, Age:0}"
           },
-          "item": {
+          "items": {
            "items": [
              "minecraft:shears"
            ]

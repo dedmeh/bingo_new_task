@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/obtain_gold_hoe",
     "display": {
         "icon": {
-            "item": "minecraft:golden_hoe"
+            "id": "minecraft:golden_hoe"
         },
         "title": "Used good",
         "description": "Break a golden hoe.",

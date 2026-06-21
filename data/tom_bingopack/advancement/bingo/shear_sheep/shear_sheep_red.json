@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/shear_sheep/shear_sheep_green",
     "display": {
         "icon": {
-            "item": "minecraft:red_wool"
+            "id": "minecraft:red_wool"
         },
         "title": "Low Taper Fade(14)",
         "description": "Shear a red sheep.",
@@ -16,7 +16,7 @@
             "type": "minecraft:sheep",
             "nbt": "{Color:14b, Age:0}"
           },
-          "item": {
+          "items": {
            "items": [
              "minecraft:shears"
            ]

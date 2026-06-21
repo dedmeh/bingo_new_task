@@ -2,7 +2,7 @@
     "parent": "tom_bingopack:bingo/board",
     "display": {
         "icon": {
-            "item": "minecraft:red_mushroom"
+            "id": "minecraft:red_mushroom"
         },
         "title": "Amoongus",
         "description": "Obtain every type of mushroom",
