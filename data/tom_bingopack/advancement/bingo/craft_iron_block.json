@@ -1,0 +1,24 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_block"
+        },
+        "title": "Heavy lifting",
+        "description": "Craft an iron block.",
+        "frame": "task"
+    },
+    "criteria": {
+        "craft_iron_block": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:iron_block"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_iron_block"
+        ]
+    ]
+}

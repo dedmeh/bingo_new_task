@@ -1,0 +1,42 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:andesite"
+        },
+        "title": "I GUESS BRO",
+        "description": "Craft andesite, diorite and granite instead of… mining them?",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "craft_andesite": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:andesite"
+            }
+        },
+        "craft_diorite": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:diorite"
+            }
+        },
+        "craft_granite": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:granite"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_andesite"
+        ],
+        [
+            "craft_diorite"
+        ],
+        [
+            "craft_granite"
+        ]
+    ]
+}

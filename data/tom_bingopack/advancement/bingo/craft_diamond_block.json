@@ -1,0 +1,24 @@
+{
+    "parent": "tom_bingopack:bingo/craft_gold_block",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_block"
+        },
+        "title": "We're SUPER RICH!",
+        "description": "Craft a diamond block.",
+        "frame": "goal"
+    },
+    "criteria": {
+        "craft_diamond_block": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:diamond_block"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_diamond_block"
+        ]
+    ]
+}

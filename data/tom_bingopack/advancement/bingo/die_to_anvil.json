@@ -1,0 +1,16 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:anvil"
+        },
+        "title": "Heavy Metal",
+        "description": "Die to an anvil.",
+        "frame": "task"
+    },
+    "criteria": {
+        "die_to_anvil": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "tom_bingopack:bingo/shear_sheep/shear_sheep_white",
+    "display": {
+        "icon": {
+            "id": "minecraft:orange_wool"
+        },
+        "title": "Low Taper Fade(1)",
+        "description": "Shear an orange sheep.",
+        "frame": "task"
+    },
+    "criteria": {
+      "shear_sheep_orange": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:sheep",
+            "nbt": "{Color:1b, Age:0}"
+          },
+          "items": {
+           "items": [
+             "minecraft:shears"
+           ]
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "shear_sheep_orange"
+      ]
+    ]
+}

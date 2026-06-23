@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:fern"
+        },
+        "title": "Not yet, Ferb",
+        "description": "Obtain a fern.",
+        "frame": "task"
+    },
+    "criteria": {
+        "obtain_fern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:fern"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_fern"
+        ]
+    ]
+}

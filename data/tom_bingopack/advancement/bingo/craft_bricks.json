@@ -1,0 +1,24 @@
+{
+    "parent": "tom_bingopack:bingo/craft_iron_block",
+    "display": {
+        "icon": {
+            "id": "minecraft:bricks"
+        },
+        "title": "Bricked up",
+        "description": "Craft bricks.",
+        "frame": "task"
+    },
+    "criteria": {
+        "craft_bricks": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:bricks"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_bricks"
+        ]
+    ]
+}
