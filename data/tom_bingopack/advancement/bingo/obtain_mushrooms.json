@@ -28,6 +28,26 @@
                     }
                 ]
             }
+        },
+        "obtain_crimson_fungus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:crimson_fungus"]
+                    }
+                ]
+            }
+        },
+        "obtain_warped_fungus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:warped_fungus"]
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -36,6 +56,12 @@
         ],
         [
             "obtain_brown_mushroom"
+        ],
+        [
+            "obtain_crimson_fungus"
+        ],
+        [
+            "obtain_warped_fungus"
         ]
     ]
 }
