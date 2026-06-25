@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/eat_pumpkin_pie",
+    "display": {
+        "icon": {
+            "id": "minecraft:pufferfish"
+        },
+        "title": "Trust the process",
+        "description": "Eat a pufferfish.",
+        "frame": "task"
+    },
+    "criteria": {
+        "eat_pufferfish": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "items": {
+                    "items": ["minecraft:pufferfish"]
+                }
+            }
+        }
+    }
+}

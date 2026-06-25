@@ -12,7 +12,7 @@
         "eat_pumpkin_pie": {
             "trigger": "minecraft:consume_item",
             "conditions": {
-                "item": {
+                "items": {
                     "items": ["minecraft:pumpkin_pie"]
                 }
             }
