@@ -9,62 +9,23 @@
         "frame": "task"
     },
     "criteria": {
-        "flower_banner_pattern": {
+        "obtain_pattern": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:flower_banner_pattern"]
-                    }
-                ]
-            }
-        },
-        "creeper_banner_pattern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:creeper_banner_pattern"]
-                    }
-                ]
-            }
-        },
-        "skull_banner_pattern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:skull_banner_pattern"]
-                    }
-                ]
-            }
-        },
-        "mojang_banner_pattern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:mojang_banner_pattern"]
-                    }
-                ]
-            }
-        },
-        "globe_banner_pattern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:globe_banner_pattern"]
-                    }
-                ]
-            }
-        },
-        "piglin_banner_pattern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:piglin_banner_pattern"]
+                        "items": [
+                            "minecraft:bordure_indented_banner_pattern",
+                            "minecraft:creeper_banner_pattern",
+                            "minecraft:field_masoned_banner_pattern",
+                            "minecraft:flow_banner_pattern",
+                            "minecraft:flower_banner_pattern",
+                            "minecraft:globe_banner_pattern",
+                            "minecraft:guster_banner_pattern",
+                            "minecraft:mojang_banner_pattern",
+                            "minecraft:piglin_banner_pattern",
+                            "minecraft:skull_banner_pattern"
+                        ]
                     }
                 ]
             }
@@ -72,12 +33,7 @@
     },
     "requirements": [
         [
-            "flower_banner_pattern",
-            "creeper_banner_pattern",
-            "skull_banner_pattern",
-            "mojang_banner_pattern",
-            "globe_banner_pattern",
-            "piglin_banner_pattern"
+            "obtain_pattern"
         ]
     ]
 }
