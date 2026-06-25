@@ -1,0 +1,26 @@
+{
+  "S": [],
+  "A": [],
+  "B": [],
+  "C": [],
+  "D": [
+    "tom_bingopack:bingo/craft_diamond_block",
+    "tom_bingopack:bingo/craft_gold_block",
+    "tom_bingopack:bingo/craft_iron_block",
+    "tom_bingopack:bingo/craft_lodestone",
+    "tom_bingopack:bingo/die_to_anvil",
+    "tom_bingopack:bingo/eat_pufferfish",
+    "tom_bingopack:bingo/eat_pumpkin_pie",
+    "tom_bingopack:bingo/eat_spider_eye",
+    "tom_bingopack:bingo/obtain_amethyst",
+    "tom_bingopack:bingo/obtain_banner_pattern",
+    "tom_bingopack:bingo/obtain_disc",
+    "tom_bingopack:bingo/obtain_fern",
+    "tom_bingopack:bingo/obtain_gold_hoe",
+    "tom_bingopack:bingo/obtain_heart_of_the_sea",
+    "tom_bingopack:bingo/obtain_mushrooms",
+    "tom_bingopack:bingo/obtain_repeater",
+    "tom_bingopack:bingo/repair_iron_golem",
+    "tom_bingopack:bingo/use_all_chest"
+  ]
+}
