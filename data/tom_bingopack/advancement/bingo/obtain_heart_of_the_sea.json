@@ -1,0 +1,28 @@
+{
+    "parent": "tom_bingopack:bingo/obtain_fern",
+    "display": {
+        "icon": {
+            "id": "minecraft:heart_of_the_sea"
+        },
+        "title": "That's a weird heart",
+        "description": "Obtain a heart of the sea.",
+        "frame": "task"
+    },
+    "criteria": {
+        "obtain_heart_of_the_sea": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:heart_of_the_sea"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_heart_of_the_sea"
+        ]
+    ]
+}
