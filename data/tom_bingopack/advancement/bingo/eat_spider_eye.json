@@ -1,26 +1,26 @@
 {
-    "parent": "tom_bingopack:bingo/eat_pumpkin_pie",
+    "parent": "tom_bingopack:bingo/eat_pufferfish",
     "display": {
         "icon": {
-            "id": "minecraft:pufferfish"
+            "id": "minecraft:spider_eye"
         },
-        "title": "Trust the process",
-        "description": "Eat a pufferfish.",
+        "title": "Hanta Virus",
+        "description": "Eat a spider eye.",
         "frame": "task"
     },
     "criteria": {
-        "eat_pufferfish": {
+        "eat_spider_eye": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:pufferfish"]
+                    "items": ["minecraft:spider_eye"]
                 }
             }
         }
     },
     "requirements": [
         [
-            "eat_pufferfish"
+            "eat_spider_eye"
         ]
     ]
 }
