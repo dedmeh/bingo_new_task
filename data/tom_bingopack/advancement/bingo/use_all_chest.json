@@ -1,0 +1,125 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:chest"
+        },
+        "title": "Chestmolester",
+        "description": "Open all types of chests. (Include barrel and ANY copper chest)",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "open_chest": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:chest"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "open_barrel": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:barrel"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "open_ender_chest": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:ender_chest"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "open_trapped_chest": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:trapped_chest"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "open_copper_chest": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:copper_chest",
+                                    "minecraft:exposed_copper_chest",
+                                    "minecraft:weathered_copper_chest",
+                                    "minecraft:oxidized_copper_chest",
+                                    "minecraft:waxed_copper_chest",
+                                    "minecraft:waxed_exposed_copper_chest",
+                                    "minecraft:waxed_weathered_copper_chest",
+                                    "minecraft:waxed_oxidized_copper_chest"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "open_chest_minecart": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:chest_minecart"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "open_chest"
+        ],
+        [
+            "open_barrel"
+        ],
+        [
+            "open_ender_chest"
+        ],
+        [
+            "open_trapped_chest"
+        ],
+        [
+            "open_copper_chest"
+        ],
+        [
+            "open_chest_minecart"
+        ]
+    ]
+}
