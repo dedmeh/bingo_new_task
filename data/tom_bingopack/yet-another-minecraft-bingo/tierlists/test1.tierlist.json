@@ -4,6 +4,11 @@
   "B": [],
   "C": [],
   "D": [
+    "tom_bingopack:bingo/break_gold_hoe",
+    "tom_bingopack:bingo/craft_andesite_diorite_granite",
+    "tom_bingopack:bingo/craft_bricks",
+    "tom_bingopack:bingo/craft_chiseled_sandstone",
+    "tom_bingopack:bingo/craft_decorated_pot",
     "tom_bingopack:bingo/craft_diamond_block",
     "tom_bingopack:bingo/craft_gold_block",
     "tom_bingopack:bingo/craft_iron_block",
@@ -12,7 +17,7 @@
     "tom_bingopack:bingo/eat_pufferfish",
     "tom_bingopack:bingo/eat_pumpkin_pie",
     "tom_bingopack:bingo/eat_spider_eye",
-    "tom_bingopack:bingo/obtain_amethyst",
+    "tom_bingopack:bingo/obtain_granite_amethyst_ender_pearl",
     "tom_bingopack:bingo/obtain_banner_pattern",
     "tom_bingopack:bingo/obtain_disc",
     "tom_bingopack:bingo/obtain_fern",
@@ -22,5 +27,25 @@
     "tom_bingopack:bingo/obtain_repeater",
     "tom_bingopack:bingo/repair_iron_golem",
     "tom_bingopack:bingo/use_all_chest"
+  ],
+  "groups": [
+    [
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_black",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_blue",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_brown",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_cyan",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_gray",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_green",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_light_blue",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_light_gray",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_lime",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_magenta",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_orange",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_pink",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_purple",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_red",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_white",
+      "tom_bingopack:bingo/shear_sheep/shear_sheep_yellow"
+    ]
   ]
 }
