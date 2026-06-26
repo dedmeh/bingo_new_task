@@ -1,0 +1,54 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:amethyst_shard"
+        },
+        "title": "And STEVENNN!",
+        "description": "Obtain Granite, Amethyst, Ender Pearl,...",
+        "frame": "goal"
+    },
+    "criteria": {
+        "obtain_amethyst_shard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:amethyst_shard"]
+                    }
+                ]
+            }
+        },
+        "obtain_ender_pearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:ender_pearl"]
+                    }
+                ]
+            }
+        },
+        "obtain_granite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:granite"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_amethyst_shard"
+        ],
+        [
+            "obtain_ender_pearl"
+        ],
+        [
+            "obtain_granite"
+        ]
+    ]
+}

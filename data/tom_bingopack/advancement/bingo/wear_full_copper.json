@@ -1,0 +1,15 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_helmet"
+        },
+        "title": "Absolute Tigchess-tory",
+        "description": "Wear a full set of copper armor"
+    },
+    "criteria": {
+        "copper_armor": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
