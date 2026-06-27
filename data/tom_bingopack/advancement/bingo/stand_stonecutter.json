@@ -1,0 +1,31 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:stonecutter"
+        },
+        "title": "Circumcised",
+        "description": "Stand on a stonecutter.",
+        "frame": "task"
+    },
+    "criteria": {
+        "stand_stonecutter": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "stepping_on": {
+                                "block": {
+                                    "blocks": "minecraft:stonecutter"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

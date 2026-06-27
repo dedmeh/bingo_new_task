@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/eat_cake",
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_carrot"
+        },
+        "title": "Saturate me up",
+        "description": "Eat a golden carrot.",
+        "frame": "task"
+    },
+    "criteria": {
+        "eat_golden_carrot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:golden_carrot"]
+                }
+            }
+        }
+    }
+}

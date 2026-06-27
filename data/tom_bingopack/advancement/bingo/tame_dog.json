@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/tame_cat",
+    "display": {
+        "icon": {
+            "id": "minecraft:bone"
+        },
+        "title": "Alpha Companion",
+        "description": "Tame a wolf.",
+        "frame": "task"
+    },
+    "criteria": {
+        "tame_wolf": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wolf"
+                }
+            }
+        }
+    }
+}

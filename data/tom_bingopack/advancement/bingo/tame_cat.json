@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:cod"
+        },
+        "title": "Furry Friend",
+        "description": "Tame a cat.",
+        "frame": "task"
+    },
+    "criteria": {
+        "tame_cat": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cat"
+                }
+            }
+        }
+    }
+}
