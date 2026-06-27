@@ -16,6 +16,6 @@ execute as @a run scoreboard players operation @s deathPrev = @s deaths
 scoreboard players remove @a[scores={anvil_near=1..}] anvil_near 1
 
 #Detect wear_full_copper
-execute if entity @s[nbt={equipment:
-    {head:{id:"minecraft:copper_helmet",count:1}}
-}] run advancement grant @s only tom_bingopack:bingo/wear_full_copper
+execute as @a at @s if entity @s[nbt={equipment:{head:{id:"minecraft:copper_helmet",count:1},chest:{id:"minecraft:copper_chestplate",count:1},legs:{id:"minecraft:copper_leggings",count:1},feet:{id:"minecraft:copper_boots",count:1}}}] run advancement grant @s only tom_bingopack:bingo/wear_full_copper
+
+#

@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/die_to_baby_zombie",
+    "display": {
+        "icon": {
+            "id": "minecraft:enderman_spawn_egg"
+        },
+        "title": "Don't Look Back",
+        "description": "Die to an enderman",
+        "frame": "task"
+    },
+    "criteria": {
+        "die_to_enderman": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    }
+}

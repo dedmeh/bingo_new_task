@@ -1,0 +1,24 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:zombie_spawn_egg"
+        },
+        "title": "Child Predator",
+        "description": "Die to a baby zombie",
+        "frame": "task"
+    },
+    "criteria": {
+        "die_to_baby_zombie": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        }
+    }
+}
