@@ -28,7 +28,9 @@
     "tom_bingopack:bingo/obtain_mushrooms",
     "tom_bingopack:bingo/obtain_repeater",
     "tom_bingopack:bingo/repair_iron_golem",
-    "tom_bingopack:bingo/use_all_chest"
+    "tom_bingopack:bingo/stand_in_water_lava",
+    "tom_bingopack:bingo/use_all_chest",
+    "tom_bingopack:bingo/wear_full_copper"
   ],
   "groups": [
     [

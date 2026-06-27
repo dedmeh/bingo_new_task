@@ -1,0 +1,55 @@
+{
+    "criteria": {
+        "stand_in_water": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "fluid": {
+                                    "fluids": [
+                                        "minecraft:water",
+                                        "minecraft:flowing_water"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stand_in_lava": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "fluid": {
+                                    "fluids": [
+                                        "minecraft:lava",
+                                        "minecraft:flowing_lava"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:water_bucket"
+        },
+        "title": "Only the Avatar, Master of All Four Elements",
+        "description": "Stand in water and lava at the same time",
+        "frame": "goal"
+    },
+    "parent": "tom_bingopack:bingo/root"
+}
