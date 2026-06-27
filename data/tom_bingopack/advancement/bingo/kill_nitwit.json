@@ -1,0 +1,24 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:rotten_flesh"
+        },
+        "title": "Throw hotbuns at a homeless person",
+        "description": "Kill a nitwit.",
+        "frame": "task"
+    },
+    "criteria": {
+        "kill_nitwit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "VillagerData": {
+                        "profession": "minecraft:nitwit"
+                    }
+                }
+            }
+        }
+    }
+}

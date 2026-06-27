@@ -1,0 +1,16 @@
+{
+    "parent": "tom_bingopack:bingo/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "title": "Follow the Eye",
+        "description": "Throw an ender eye",
+        "frame": "task"
+    },
+    "criteria": {
+        "throw_ender_eye": {
+            "trigger": "minecraft:used_ender_eye"
+        }
+    }
+}

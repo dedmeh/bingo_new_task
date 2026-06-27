@@ -1,0 +1,39 @@
+{
+    "parent": "tom_bingopack:bingo/kill_nitwit",
+    "display": {
+        "icon": {
+            "id": "minecraft:trident"
+        },
+        "title": "Asian Angler",
+        "description": "Kill a fish with a spear.",
+        "frame": "task"
+    },
+    "criteria": {
+        "kill_fish_with_spear": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": ["minecraft:cod", "minecraft:salmon", "minecraft:tropical_fish", "minecraft:pufferfish"]
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:trident",
+                                    "minecraft:wooden_spear",
+                                    "minecraft:stone_spear",
+                                    "minecraft:iron_spear",
+                                    "minecraft:golden_spear",
+                                    "minecraft:diamond_spear",
+                                    "minecraft:netherite_spear",
+                                    "minecraft:copper_spear"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -25,6 +25,8 @@
     "tom_bingopack:bingo/eat_pumpkin_pie",
     "tom_bingopack:bingo/eat_spider_eye",
     "tom_bingopack:bingo/ignite_creeper",
+    "tom_bingopack:bingo/kill_fish_with_spear",
+    "tom_bingopack:bingo/kill_nitwit",
     "tom_bingopack:bingo/obtain_granite_amethyst_ender_pearl",
     "tom_bingopack:bingo/obtain_banner_pattern",
     "tom_bingopack:bingo/obtain_disc",
@@ -35,6 +37,7 @@
     "tom_bingopack:bingo/obtain_repeater",
     "tom_bingopack:bingo/repair_iron_golem",
     "tom_bingopack:bingo/stand_in_water_lava",
+    "tom_bingopack:bingo/throw_ender_eye",
     "tom_bingopack:bingo/use_all_chest",
     "tom_bingopack:bingo/wear_full_copper"
   ],
