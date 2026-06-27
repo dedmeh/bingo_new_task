@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/tame_dog",
+    "display": {
+        "icon": {
+            "id": "minecraft:hay_block"
+        },
+        "title": "Giddy Up",
+        "description": "Tame a horse.",
+        "frame": "task"
+    },
+    "criteria": {
+        "tame_wolf": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:horse"
+                }
+            }
+        }
+    }
+}
