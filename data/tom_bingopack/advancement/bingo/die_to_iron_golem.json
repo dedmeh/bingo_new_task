@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/die_to_baby_zombie",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_golem_spawn_egg"
+        },
+        "title": "Crash test dummy",
+        "description": "Die to an iron golem",
+        "frame": "task"
+    },
+    "criteria": {
+        "die_to_iron_golem": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        }
+    }
+}
