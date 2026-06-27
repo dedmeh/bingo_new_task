@@ -1,0 +1,26 @@
+{
+    "parent": "tom_bingopack:bingo/repair_iron_golem",
+    "display": {
+        "icon": {
+            "id": "minecraft:creeper_spawn_egg"
+        },
+        "title": "Iwantoblow",
+        "description": "Ignite a creeper with a flint and steel",
+        "frame": "task"
+    },
+    "criteria": {
+        "ignite_creeper": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:flint_and_steel"
+                    ]
+                }
+            }
+        }
+    }
+}

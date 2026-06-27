@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/die_to_creeper",
+    "display": {
+        "icon": {
+            "id": "minecraft:zombified_piglin_spawn_egg"
+        },
+        "title": "Gang Raped",
+        "description": "Die to a zombified piglin",
+        "frame": "task"
+    },
+    "criteria": {
+        "die_to_zombified_piglin": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/die_to_enderman",
+    "display": {
+        "icon": {
+            "id": "minecraft:creeper_spawn_egg"
+        },
+        "title": "Creeper Inflation",
+        "description": "Die to a creeper",
+        "frame": "task"
+    },
+    "criteria": {
+        "die_to_creeper": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                }
+            }
+        }
+    }
+}

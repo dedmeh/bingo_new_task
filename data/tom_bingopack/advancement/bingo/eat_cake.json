@@ -1,0 +1,30 @@
+{
+    "parent": "tom_bingopack:bingo/eat_pumpkin_pie",
+    "display": {
+        "icon": {
+            "id": "minecraft:cake"
+        },
+        "title": "Happy Birthday Daniel",
+        "description": "Eat a cake",
+        "frame": "goal"
+    },
+    "criteria": {
+        "eat_cake": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:cake"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

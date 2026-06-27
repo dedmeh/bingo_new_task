@@ -1,0 +1,21 @@
+{
+    "parent": "tom_bingopack:bingo/die_to_enderman",
+    "display": {
+        "icon": {
+            "id": "minecraft:cave_spider_spawn_egg"
+        },
+        "title": "Venom Issue",
+        "description": "Die to a cave spider",
+        "frame": "task"
+    },
+    "criteria": {
+        "die_to_cave_spider": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cave_spider"
+                }
+            }
+        }
+    }
+}
