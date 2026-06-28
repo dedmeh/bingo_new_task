@@ -1,0 +1,47 @@
+{
+    "parent": "tom_bingopack:bingo/fill_cauldron_nether",
+    "display": {
+        "icon": {
+            "id": "minecraft:chiseled_bookshelf"
+        },
+        "title": "Larping Reading",
+        "description": "Fill a chiseled bookshelf",
+        "frame": "task"
+    },
+    "criteria": {
+        "fill_chiseled_bookself": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:book",
+                                "minecraft:enchanted_book"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:chiseled_bookshelf"
+                                ],
+                                "state": {
+                                    "slot_0_occupied": "true",
+                                    "slot_1_occupied": "true",
+                                    "slot_2_occupied": "true",
+                                    "slot_3_occupied": "true",
+                                    "slot_4_occupied": "true",
+                                    "slot_5_occupied": "true"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
